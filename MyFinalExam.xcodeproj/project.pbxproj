@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040E425FA46F04E0348FF2F1 /* Pods_MyFinalExam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38689BB59B139EFCC2517FF /* Pods_MyFinalExam.framework */; };
+		1AC357079CA2BA14946332DB /* Pods_MyFinalExamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7432BD20CEF19660524BF3A3 /* Pods_MyFinalExamTests.framework */; };
+		3A9CB98CD9BAB5AEF5BE568C /* Pods_MyFinalExam_MyFinalExamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C36515E9A3E761A0069379E /* Pods_MyFinalExam_MyFinalExamUITests.framework */; };
+		D8219B8B2790238200B6EBB5 /* GroceryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8219B8A2790238200B6EBB5 /* GroceryItemCell.swift */; };
+		D8219B8D2790513D00B6EBB5 /* UsersOnlineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8219B8C2790513D00B6EBB5 /* UsersOnlineController.swift */; };
+		D8219B8F27905A5B00B6EBB5 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8219B8E27905A5B00B6EBB5 /* Users.swift */; };
+		D8219B912790D4C100B6EBB5 /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8219B902790D4C100B6EBB5 /* UsersTableViewCell.swift */; };
 		D829FA4E278EAC2500EC9E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D829FA4D278EAC2500EC9E31 /* AppDelegate.swift */; };
 		D829FA50278EAC2500EC9E31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D829FA4F278EAC2500EC9E31 /* SceneDelegate.swift */; };
-		D829FA52278EAC2500EC9E31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D829FA51278EAC2500EC9E31 /* ViewController.swift */; };
-		D829FA55278EAC2500EC9E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D829FA53278EAC2500EC9E31 /* Main.storyboard */; };
 		D829FA58278EAC2500EC9E31 /* MyFinalExam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D829FA56278EAC2500EC9E31 /* MyFinalExam.xcdatamodeld */; };
 		D829FA5A278EAC2C00EC9E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D829FA59278EAC2C00EC9E31 /* Assets.xcassets */; };
 		D829FA5D278EAC2C00EC9E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D829FA5B278EAC2C00EC9E31 /* LaunchScreen.storyboard */; };
 		D829FA68278EAC2C00EC9E31 /* MyFinalExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D829FA67278EAC2C00EC9E31 /* MyFinalExamTests.swift */; };
 		D829FA72278EAC2D00EC9E31 /* MyFinalExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D829FA71278EAC2D00EC9E31 /* MyFinalExamUITests.swift */; };
 		D829FA74278EAC2D00EC9E31 /* MyFinalExamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D829FA73278EAC2D00EC9E31 /* MyFinalExamUITestsLaunchTests.swift */; };
+		D8B938EA278EB59D0093FC63 /* SginInSginUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B938E9278EB59D0093FC63 /* SginInSginUpViewController.swift */; };
+		D8B938EC278EB5E50093FC63 /* GroceryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B938EB278EB5E50093FC63 /* GroceryTableViewController.swift */; };
+		D8B938EE278EBC780093FC63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8B938ED278EBC780093FC63 /* GoogleService-Info.plist */; };
+		D8B938F0278EC9AB0093FC63 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B938EF278EC9AB0093FC63 /* GroceryItem.swift */; };
+		D8B938F2278EEDEB0093FC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B938F1278EEDEB0093FC63 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +47,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FF69F30705D62FEE07A1085 /* Pods-MyFinalExam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFinalExam.release.xcconfig"; path = "Target Support Files/Pods-MyFinalExam/Pods-MyFinalExam.release.xcconfig"; sourceTree = "<group>"; };
+		400B9164FEF57355AE081DB5 /* Pods-MyFinalExamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFinalExamTests.debug.xcconfig"; path = "Target Support Files/Pods-MyFinalExamTests/Pods-MyFinalExamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D0B27F1EF8774EEECAB1803 /* Pods-MyFinalExam-MyFinalExamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFinalExam-MyFinalExamUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyFinalExam-MyFinalExamUITests/Pods-MyFinalExam-MyFinalExamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7432BD20CEF19660524BF3A3 /* Pods_MyFinalExamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFinalExamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C36515E9A3E761A0069379E /* Pods_MyFinalExam_MyFinalExamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFinalExam_MyFinalExamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C69CD8B45D7E0DB00B10104 /* Pods-MyFinalExamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFinalExamTests.release.xcconfig"; path = "Target Support Files/Pods-MyFinalExamTests/Pods-MyFinalExamTests.release.xcconfig"; sourceTree = "<group>"; };
+		A879C53ABB22CC20FB71C721 /* Pods-MyFinalExam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFinalExam.debug.xcconfig"; path = "Target Support Files/Pods-MyFinalExam/Pods-MyFinalExam.debug.xcconfig"; sourceTree = "<group>"; };
+		C38689BB59B139EFCC2517FF /* Pods_MyFinalExam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFinalExam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0A54AB6107C3B435C57729 /* Pods-MyFinalExam-MyFinalExamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFinalExam-MyFinalExamUITests.release.xcconfig"; path = "Target Support Files/Pods-MyFinalExam-MyFinalExamUITests/Pods-MyFinalExam-MyFinalExamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8219B8A2790238200B6EBB5 /* GroceryItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemCell.swift; sourceTree = "<group>"; };
+		D8219B8C2790513D00B6EBB5 /* UsersOnlineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersOnlineController.swift; sourceTree = "<group>"; };
+		D8219B8E27905A5B00B6EBB5 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		D8219B902790D4C100B6EBB5 /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
 		D829FA4A278EAC2500EC9E31 /* MyFinalExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFinalExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D829FA4D278EAC2500EC9E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D829FA4F278EAC2500EC9E31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D829FA51278EAC2500EC9E31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D829FA54278EAC2500EC9E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D829FA57278EAC2500EC9E31 /* MyFinalExam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFinalExam.xcdatamodel; sourceTree = "<group>"; };
 		D829FA59278EAC2C00EC9E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D829FA5C278EAC2C00EC9E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +72,11 @@
 		D829FA6D278EAC2D00EC9E31 /* MyFinalExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFinalExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D829FA71278EAC2D00EC9E31 /* MyFinalExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFinalExamUITests.swift; sourceTree = "<group>"; };
 		D829FA73278EAC2D00EC9E31 /* MyFinalExamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFinalExamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8B938E9278EB59D0093FC63 /* SginInSginUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SginInSginUpViewController.swift; sourceTree = "<group>"; };
+		D8B938EB278EB5E50093FC63 /* GroceryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryTableViewController.swift; sourceTree = "<group>"; };
+		D8B938ED278EBC780093FC63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8B938EF278EC9AB0093FC63 /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		D8B938F1278EEDEB0093FC63 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040E425FA46F04E0348FF2F1 /* Pods_MyFinalExam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC357079CA2BA14946332DB /* Pods_MyFinalExamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +100,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9CB98CD9BAB5AEF5BE568C /* Pods_MyFinalExam_MyFinalExamUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E0D516E8699260CEF428992 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A879C53ABB22CC20FB71C721 /* Pods-MyFinalExam.debug.xcconfig */,
+				0FF69F30705D62FEE07A1085 /* Pods-MyFinalExam.release.xcconfig */,
+				4D0B27F1EF8774EEECAB1803 /* Pods-MyFinalExam-MyFinalExamUITests.debug.xcconfig */,
+				CA0A54AB6107C3B435C57729 /* Pods-MyFinalExam-MyFinalExamUITests.release.xcconfig */,
+				400B9164FEF57355AE081DB5 /* Pods-MyFinalExamTests.debug.xcconfig */,
+				9C69CD8B45D7E0DB00B10104 /* Pods-MyFinalExamTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8219B8727900E8A00B6EBB5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8B938E9278EB59D0093FC63 /* SginInSginUpViewController.swift */,
+				D8B938EB278EB5E50093FC63 /* GroceryTableViewController.swift */,
+				D8219B8C2790513D00B6EBB5 /* UsersOnlineController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D8219B8827900EE300B6EBB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D829FA4D278EAC2500EC9E31 /* AppDelegate.swift */,
+				D829FA4F278EAC2500EC9E31 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D8219B8927900F0A00B6EBB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8B938EF278EC9AB0093FC63 /* GroceryItem.swift */,
+				D8219B8A2790238200B6EBB5 /* GroceryItemCell.swift */,
+				D8219B8E27905A5B00B6EBB5 /* Users.swift */,
+				D8219B902790D4C100B6EBB5 /* UsersTableViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D829FA41278EAC2500EC9E31 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +157,8 @@
 				D829FA66278EAC2C00EC9E31 /* MyFinalExamTests */,
 				D829FA70278EAC2D00EC9E31 /* MyFinalExamUITests */,
 				D829FA4B278EAC2500EC9E31 /* Products */,
+				2E0D516E8699260CEF428992 /* Pods */,
+				F39A01414B81A12892870B62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +175,14 @@
 		D829FA4C278EAC2500EC9E31 /* MyFinalExam */ = {
 			isa = PBXGroup;
 			children = (
-				D829FA4D278EAC2500EC9E31 /* AppDelegate.swift */,
-				D829FA4F278EAC2500EC9E31 /* SceneDelegate.swift */,
-				D829FA51278EAC2500EC9E31 /* ViewController.swift */,
-				D829FA53278EAC2500EC9E31 /* Main.storyboard */,
+				D8219B8927900F0A00B6EBB5 /* Model */,
+				D8219B8827900EE300B6EBB5 /* Resources */,
+				D8219B8727900E8A00B6EBB5 /* Controllers */,
 				D829FA59278EAC2C00EC9E31 /* Assets.xcassets */,
 				D829FA5B278EAC2C00EC9E31 /* LaunchScreen.storyboard */,
+				D8B938F1278EEDEB0093FC63 /* Main.storyboard */,
 				D829FA5E278EAC2C00EC9E31 /* Info.plist */,
+				D8B938ED278EBC780093FC63 /* GoogleService-Info.plist */,
 				D829FA56278EAC2500EC9E31 /* MyFinalExam.xcdatamodeld */,
 			);
 			path = MyFinalExam;
@@ -130,6 +205,16 @@
 			path = MyFinalExamUITests;
 			sourceTree = "<group>";
 		};
+		F39A01414B81A12892870B62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C38689BB59B139EFCC2517FF /* Pods_MyFinalExam.framework */,
+				8C36515E9A3E761A0069379E /* Pods_MyFinalExam_MyFinalExamUITests.framework */,
+				7432BD20CEF19660524BF3A3 /* Pods_MyFinalExamTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D829FA77278EAC2D00EC9E31 /* Build configuration list for PBXNativeTarget "MyFinalExam" */;
 			buildPhases = (
+				A3A2FF0A43FDD37BAC7B5D16 /* [CP] Check Pods Manifest.lock */,
 				D829FA46278EAC2500EC9E31 /* Sources */,
 				D829FA47278EAC2500EC9E31 /* Frameworks */,
 				D829FA48278EAC2500EC9E31 /* Resources */,
+				4297267E7F9FC0C5909618AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D829FA7A278EAC2D00EC9E31 /* Build configuration list for PBXNativeTarget "MyFinalExamTests" */;
 			buildPhases = (
+				350BDBD10267BB194C764932 /* [CP] Check Pods Manifest.lock */,
 				D829FA5F278EAC2C00EC9E31 /* Sources */,
 				D829FA60278EAC2C00EC9E31 /* Frameworks */,
 				D829FA61278EAC2C00EC9E31 /* Resources */,
@@ -172,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D829FA7D278EAC2D00EC9E31 /* Build configuration list for PBXNativeTarget "MyFinalExamUITests" */;
 			buildPhases = (
+				69670F6FC8675C4EAFF6A311 /* [CP] Check Pods Manifest.lock */,
 				D829FA69278EAC2D00EC9E31 /* Sources */,
 				D829FA6A278EAC2D00EC9E31 /* Frameworks */,
 				D829FA6B278EAC2D00EC9E31 /* Resources */,
+				48986F4E93FF170FF44C8BA6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,8 +325,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D829FA5D278EAC2C00EC9E31 /* LaunchScreen.storyboard in Resources */,
+				D8B938EE278EBC780093FC63 /* GoogleService-Info.plist in Resources */,
 				D829FA5A278EAC2C00EC9E31 /* Assets.xcassets in Resources */,
-				D829FA55278EAC2500EC9E31 /* Main.storyboard in Resources */,
+				D8B938F2278EEDEB0093FC63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +347,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		350BDBD10267BB194C764932 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyFinalExamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4297267E7F9FC0C5909618AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyFinalExam/Pods-MyFinalExam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyFinalExam/Pods-MyFinalExam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyFinalExam/Pods-MyFinalExam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48986F4E93FF170FF44C8BA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyFinalExam-MyFinalExamUITests/Pods-MyFinalExam-MyFinalExamUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyFinalExam-MyFinalExamUITests/Pods-MyFinalExam-MyFinalExamUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyFinalExam-MyFinalExamUITests/Pods-MyFinalExam-MyFinalExamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69670F6FC8675C4EAFF6A311 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyFinalExam-MyFinalExamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A2FF0A43FDD37BAC7B5D16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyFinalExam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D829FA46278EAC2500EC9E31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D829FA52278EAC2500EC9E31 /* ViewController.swift in Sources */,
 				D829FA4E278EAC2500EC9E31 /* AppDelegate.swift in Sources */,
 				D829FA50278EAC2500EC9E31 /* SceneDelegate.swift in Sources */,
+				D8219B8F27905A5B00B6EBB5 /* Users.swift in Sources */,
+				D8219B8B2790238200B6EBB5 /* GroceryItemCell.swift in Sources */,
+				D8B938EA278EB59D0093FC63 /* SginInSginUpViewController.swift in Sources */,
+				D8B938EC278EB5E50093FC63 /* GroceryTableViewController.swift in Sources */,
+				D8219B8D2790513D00B6EBB5 /* UsersOnlineController.swift in Sources */,
 				D829FA58278EAC2500EC9E31 /* MyFinalExam.xcdatamodeld in Sources */,
+				D8B938F0278EC9AB0093FC63 /* GroceryItem.swift in Sources */,
+				D8219B912790D4C100B6EBB5 /* UsersTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +501,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D829FA53278EAC2500EC9E31 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D829FA54278EAC2500EC9E31 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D829FA5B278EAC2C00EC9E31 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,6 +630,7 @@
 		};
 		D829FA78278EAC2D00EC9E31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A879C53ABB22CC20FB71C721 /* Pods-MyFinalExam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +658,7 @@
 		};
 		D829FA79278EAC2D00EC9E31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF69F30705D62FEE07A1085 /* Pods-MyFinalExam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +686,7 @@
 		};
 		D829FA7B278EAC2D00EC9E31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400B9164FEF57355AE081DB5 /* Pods-MyFinalExamTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +711,7 @@
 		};
 		D829FA7C278EAC2D00EC9E31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C69CD8B45D7E0DB00B10104 /* Pods-MyFinalExamTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +736,7 @@
 		};
 		D829FA7E278EAC2D00EC9E31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0B27F1EF8774EEECAB1803 /* Pods-MyFinalExam-MyFinalExamUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +759,7 @@
 		};
 		D829FA7F278EAC2D00EC9E31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0A54AB6107C3B435C57729 /* Pods-MyFinalExam-MyFinalExamUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
